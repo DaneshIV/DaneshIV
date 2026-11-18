@@ -1,68 +1,53 @@
 <div align="center">
-  <h1>Hi, I'm Danesh 👋</h1>
-  <p><strong>Computer Networks & Security • IoT Automation • Cloud & AI</strong></p>
+  <h1>Hi, I'm Danesh Muthu Krisnan 👋</h1>
+  <p><strong>Computer Networks & Security • IoT & Industrial Automation • Cloud & AI</strong></p>
 
-  <!-- Live Git-Koi Animation (generated via GitHub Actions) -->
+  <!-- Social & Contact Badges -->
+  <p>
+    <a href="https://www.linkedin.com/in/danesh-muthukrisnan/">
+      <img src="https://img.shields.io/badge/LinkedIn-Danesh%20Muthu%20Krisnan-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://twitter.com/danesh_iv">
+      <img src="https://img.shields.io/badge/X-@danesh__iv-000000?style=flat-square&logo=x&logoColor=white" alt="X" />
+    </a>
+    <a href="https://github.com/DaneshIV?tab=repositories">
+      <img src="https://img.shields.io/github/followers/DaneshIV?style=flat-square&label=Followers&logo=github" alt="GitHub Followers" />
+    </a>
+  </p>
+
+  <!-- Live Git-Koi Animation -->
   <a href="https://docs.rs/git-koi/latest/git_koi/">
-    <img src="./dist/koi.gif" alt="GitHub Activity Koi" width="320" />
+    <img src="./dist/koi.gif" alt="DaneshIV's Git-Koi" width="340" />
   </a>
   <br />
   <sub>
-    Powered by <a href="https://docs.rs/git-koi/latest/git_koi/"><code>git-koi</code></a> — procedurally colored & animated from my public commit streaks and language shares.
+    Generated daily from my public GitHub activity via <a href="https://docs.rs/git-koi/latest/git_koi/"><code>git-koi</code></a>
   </sub>
 </div>
 
 ---
 
-### 🚀 About Me
-- 🎓 Final-year Computer Science student (**Computer Networks & Security**) at Universiti Teknologi Malaysia.
-- 🌱 Currently building **AgriBox**, an industrial IoT smart fertigation and environmental monitoring system powered by Raspberry Pi Compute Module.
-- 🛠️ Interested in network automation, cloud-native architectures, and embedded Linux systems.
+### 🧑‍💻 About Me
+- 🎓 Pursuing a **Bachelor of Computer Science (Computer Networks & Security)** at **Universiti Teknologi Malaysia (UTM)**.
+- 🌱 Building **AgriBox**, an industrial IoT smart fertigation and environmental monitoring system powered by the **IRIV PiControl AgriBox** (Raspberry Pi Compute Module).
+- 📡 Experience in **Network Delivery & Automation** (Maxis), cloud infrastructure, and cybersecurity student community initiatives.
+- 📍 Based in Malaysia (`Parit, Perak` / `Kuala Lumpur`).
 
 ---
 
-### 🐟 How the Koi Works
-The animated koi above is generated automatically via a scheduled GitHub Action using the [`git_koi`](https://docs.rs/git-koi/latest/git_koi/) Rust library:
-- **Coat & Pigments:** Derived proportionally from top repository languages (`coat` & `history` modules).
-- **Markings & Growth:** Reflects current and longest contribution streaks (`markings` & `koi` modules).
-- **Swimming Behavior:** Dictated by recent commit velocity and weekly participation (`behavior` & `motion` modules).
+### 🛠️ Tech Stack & Focus Areas
+
+| Domain | Tools & Technologies |
+| :--- | :--- |
+| **Languages** | Python, Rust, C/C++, Bash, JavaScript/TypeScript |
+| **Networking & Security** | Network Automation, Linux Systems, Cybersecurity Tooling, Wireshark |
+| **Embedded & IoT** | Raspberry Pi Compute Module, Industrial Controllers, Sensors & Telemetry |
+| **Cloud & AI** | Google Cloud Platform (GCP), Alibaba Cloud, Docker, GitHub Actions |
 
 ---
 
-### ⚙️ GitHub Actions Setup
-To run this in your profile repository (`username/username`), add `.github/workflows/koi.yml`:
-
-```yaml
-name: Update Git-Koi
-
-on:
-  schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight UTC
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  generate-koi:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Install Rust & git-koi
-        run: cargo install git-koi
-
-      - name: Generate Koi GIF
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          mkdir -p dist
-          git-koi --user ${{ github.repository_owner }} --output dist/koi.gif
-
-      - name: Commit & Push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/koi.gif
-          git commit -m "chore: update git-koi animation" || exit 0
-          git push
+<div align="center">
+  <a href="https://docs.rs/git-koi/latest/git_koi/">
+    <img src="https://img.shields.io/docsrs/git-koi?style=flat-square&logo=rust&label=docs.rs%20%7C%20git-koi" alt="git-koi docs" />
+  </a>
+</div>
