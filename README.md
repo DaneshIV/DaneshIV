@@ -36,19 +36,10 @@
 
 ---
 
-### 📊 Activity & Live Git-Koi
-
-<table>
-  <tr>
-    <td align="center" width="58%">
-      <img src="https://streak-stats.demolab.com?user=DaneshIV&theme=tokyonight&hide_border=true" alt="DaneshIV GitHub Streak" />
-    </td>
-    <td align="center" width="42%">
-      <a href="https://docs.rs/git-koi/latest/git_koi/">
-        <img src="https://raw.githubusercontent.com/DaneshIV/DaneshIV/main/dist/koi.gif" alt="DaneshIV's Git-Koi" width="256" />
-      </a>
-      <br />
-      <sub>Driven by <a href="https://docs.rs/git-koi/latest/git_koi/"><code>git-koi</code></a></sub>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <a href="https://docs.rs/git-koi/latest/git_koi/">
+    <img src="https://raw.githubusercontent.com/DaneshIV/DaneshIV/main/koi/koi.gif" alt="DaneshIV's Git-Koi" width="256" />
+  </a>
+  <br />
+  <sub>Driven by <a href="https://docs.rs/git-koi/latest/git_koi/"><code>git-koi</code></a></sub>
+</div>
