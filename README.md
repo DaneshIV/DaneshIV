@@ -37,9 +37,7 @@
 ---
 
 <div align="center">
-  <a href="https://docs.rs/git-koi/latest/git_koi/">
-    <img src="https://raw.githubusercontent.com/DaneshIV/DaneshIV/main/koi/koi.gif" alt="DaneshIV's Git-Koi" width="256" />
-  </a>
-  <br />
-  <sub>Driven by <a href="https://docs.rs/git-koi/latest/git_koi/"><code>git-koi</code></a></sub>
+<p align="center">
+  <img src="koi/koi.gif" width="256" alt="My GitHub koi" />
+</p
 </div>
